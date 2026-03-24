@@ -6,8 +6,7 @@ let user={
     lang:"python",
     address:"Moodbidri"
 };
-
-// console.log(user.name);
-// console.log(user.medium);
-// console.log(user.age);
-// console.log(user.address)
+console.log(user.name);
+console.log(user.medium);
+console.log(user["age"]);
+console.log(user.address);
